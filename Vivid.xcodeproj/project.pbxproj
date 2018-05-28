@@ -65,6 +65,8 @@
 		579558C520BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5795588C20BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		579558C620BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588D20BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel */; };
 		579558C720BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588E20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel */; };
+		57C5083F20BCB104001E57F9 /* YUCIContrastStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */; };
+		57C5084020BCB104001E57F9 /* YUCIContrastStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +130,8 @@
 		5795588C20BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
 		5795588D20BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
 		5795588E20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIFilmBurnTransition.cikernel; sourceTree = "<group>"; };
+		57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIContrastStretch.m; sourceTree = "<group>"; };
+		57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIContrastStretch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 				5795588820BC4BD1004CB2E8 /* YUCIColorLookup.h */,
 				5795586720BC4BD1004CB2E8 /* YUCIColorLookup.m */,
 				5795586D20BC4BD1004CB2E8 /* YUCIColorLookupTableDefault.png */,
+				57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */,
+				57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */,
 				5795585720BC4BD1004CB2E8 /* YUCICrossZoomTransition.cikernel */,
 				5795585C20BC4BD1004CB2E8 /* YUCICrossZoomTransition.h */,
 				5795587820BC4BD1004CB2E8 /* YUCICrossZoomTransition.m */,
@@ -248,6 +254,7 @@
 				579558AD20BC4BD1004CB2E8 /* YUCIFilterConstructor.h in Headers */,
 				5795589420BC4BD1004CB2E8 /* YUCIRGBToneCurve.h in Headers */,
 				5795589C20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.h in Headers */,
+				57C5084020BCB104001E57F9 /* YUCIContrastStretch.h in Headers */,
 				5795589720BC4BD1004CB2E8 /* YUCISkyGenerator.h in Headers */,
 				5795584F20BC4B8C004CB2E8 /* Vivid.h in Headers */,
 				5795589220BC4BD1004CB2E8 /* YUCICLAHE.h in Headers */,
@@ -359,6 +366,7 @@
 				579558A220BC4BD1004CB2E8 /* YUCIFilterPreviewGenerator.m in Sources */,
 				579558A020BC4BD1004CB2E8 /* YUCIColorLookup.m in Sources */,
 				579558C020BC4BD1004CB2E8 /* YUCITriangularPixellate.m in Sources */,
+				57C5083F20BCB104001E57F9 /* YUCIContrastStretch.m in Sources */,
 				579558B220BC4BD1004CB2E8 /* YUCIRGBToneCurve.m in Sources */,
 				5795589920BC4BD1004CB2E8 /* YUCIFilterConstructor.m in Sources */,
 				579558A820BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.m in Sources */,
