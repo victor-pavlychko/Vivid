@@ -73,9 +73,9 @@
     vImageBuffer.height = self.inputImage.extent.size.height;
     vImageBuffer.rowBytes = rowBytes;
     
-    unsigned percentLowValue = (unsigned)(_inputPercentLow.doubleValue * 100 + 0.5);
+    unsigned percentLowValue = (unsigned)(self.inputPercentLow.doubleValue * 100 + 0.5);
     unsigned percentLow[] = { percentLowValue, percentLowValue, percentLowValue, percentLowValue };
-    unsigned percentHighValue = (unsigned)(_inputPercentHigh.doubleValue * 100 + 0.5);
+    unsigned percentHighValue = (unsigned)(self.inputPercentHigh.doubleValue * 100 + 0.5);
     unsigned percentHigh[] = { percentHighValue, percentHighValue, percentHighValue, percentHighValue };
     vImageEndsInContrastStretch_ARGB8888(&vImageBuffer, &vImageBuffer, percentLow, percentHigh, kvImageNoFlags);
     

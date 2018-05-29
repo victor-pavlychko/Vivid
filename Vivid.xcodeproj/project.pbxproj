@@ -65,6 +65,8 @@
 		579558C520BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5795588C20BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		579558C620BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588D20BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel */; };
 		579558C720BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588E20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel */; };
+		57B6876120BDDAF200503101 /* YUCIContrastStretchHSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6875F20BDDAF200503101 /* YUCIContrastStretchHSL.m */; };
+		57B6876220BDDAF200503101 /* YUCIContrastStretchHSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B6876020BDDAF200503101 /* YUCIContrastStretchHSL.h */; };
 		57C5083F20BCB104001E57F9 /* YUCIContrastStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */; };
 		57C5084020BCB104001E57F9 /* YUCIContrastStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -130,6 +132,8 @@
 		5795588C20BC4BD1004CB2E8 /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
 		5795588D20BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
 		5795588E20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIFilmBurnTransition.cikernel; sourceTree = "<group>"; };
+		57B6875F20BDDAF200503101 /* YUCIContrastStretchHSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIContrastStretchHSL.m; sourceTree = "<group>"; };
+		57B6876020BDDAF200503101 /* YUCIContrastStretchHSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIContrastStretchHSL.h; sourceTree = "<group>"; };
 		57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIContrastStretch.m; sourceTree = "<group>"; };
 		57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIContrastStretch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +193,8 @@
 				5795586D20BC4BD1004CB2E8 /* YUCIColorLookupTableDefault.png */,
 				57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */,
 				57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */,
+				57B6876020BDDAF200503101 /* YUCIContrastStretchHSL.h */,
+				57B6875F20BDDAF200503101 /* YUCIContrastStretchHSL.m */,
 				5795585720BC4BD1004CB2E8 /* YUCICrossZoomTransition.cikernel */,
 				5795585C20BC4BD1004CB2E8 /* YUCICrossZoomTransition.h */,
 				5795587820BC4BD1004CB2E8 /* YUCICrossZoomTransition.m */,
@@ -261,6 +267,7 @@
 				5795588F20BC4BD1004CB2E8 /* YUCIReflectedTile.h in Headers */,
 				5795589E20BC4BD1004CB2E8 /* YUCIHistogramEqualization.h in Headers */,
 				579558C420BC4BD1004CB2E8 /* YUCIFlashTransition.h in Headers */,
+				57B6876220BDDAF200503101 /* YUCIContrastStretchHSL.h in Headers */,
 				579558AB20BC4BD1004CB2E8 /* YUCIBilateralFilter.h in Headers */,
 				579558AE20BC4BD1004CB2E8 /* YUCIBlobsGenerator.h in Headers */,
 				579558AA20BC4BD1004CB2E8 /* YUCIStarfieldGenerator.h in Headers */,
@@ -362,6 +369,7 @@
 				579558A320BC4BD1004CB2E8 /* YUCISurfaceBlur.m in Sources */,
 				579558A920BC4BD1004CB2E8 /* YUCIFlashTransition.m in Sources */,
 				579558B020BC4BD1004CB2E8 /* YUCISkyGenerator.m in Sources */,
+				57B6876120BDDAF200503101 /* YUCIContrastStretchHSL.m in Sources */,
 				579558B920BC4BD1004CB2E8 /* YUCIFilmBurnTransition.m in Sources */,
 				579558A220BC4BD1004CB2E8 /* YUCIFilterPreviewGenerator.m in Sources */,
 				579558A020BC4BD1004CB2E8 /* YUCIColorLookup.m in Sources */,

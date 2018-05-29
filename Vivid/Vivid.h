@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char VividVersionString[];
 #include <Vivid/YUCICLAHE.h>
 #include <Vivid/YUCIColorLookup.h>
 #include <Vivid/YUCIContrastStretch.h>
+#include <Vivid/YUCIContrastStretchHSL.h>
 #include <Vivid/YUCICrossZoomTransition.h>
 #include <Vivid/YUCIFilmBurnTransition.h>
 #include <Vivid/YUCIFilterConstructor.h>
