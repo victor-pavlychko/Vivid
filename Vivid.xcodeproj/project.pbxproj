@@ -66,7 +66,7 @@
 		579558C620BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588D20BC4BD1004CB2E8 /* YUCIBlobsGenerator.cikernel */; };
 		579558C720BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5795588E20BC4BD1004CB2E8 /* YUCIFilmBurnTransition.cikernel */; };
 		57B6876120BDDAF200503101 /* YUCIContrastStretchHSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6875F20BDDAF200503101 /* YUCIContrastStretchHSL.m */; };
-		57B6876220BDDAF200503101 /* YUCIContrastStretchHSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B6876020BDDAF200503101 /* YUCIContrastStretchHSL.h */; };
+		57B6876220BDDAF200503101 /* YUCIContrastStretchHSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B6876020BDDAF200503101 /* YUCIContrastStretchHSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57C5083F20BCB104001E57F9 /* YUCIContrastStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C5083D20BCB104001E57F9 /* YUCIContrastStretch.m */; };
 		57C5084020BCB104001E57F9 /* YUCIContrastStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C5083E20BCB104001E57F9 /* YUCIContrastStretch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
